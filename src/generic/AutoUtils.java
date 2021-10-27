@@ -1,6 +1,7 @@
 package generic;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.util.Date;
 import java.util.Properties;
@@ -12,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 
 public class AutoUtils 
 {
+	//implemented logic to take screenshot
 	//Method to take screenshot
 	public static String getPhoto(WebDriver driver, String folder, String fileName)
 	{
